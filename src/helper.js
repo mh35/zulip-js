@@ -1,4 +1,4 @@
-import fetch from 'isomorphic-fetch'
-import FormData from 'isomorphic-form-data'
+import fetch from 'isomorphic-fetch';
+import FormData from 'isomorphic-form-data';
 
-export default {fetch, FormData}
+export default { fetch, FormData };
