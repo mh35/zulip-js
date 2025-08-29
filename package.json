@@ -30,8 +30,8 @@
   "scripts": {
     "build": "babel --delete-dir-on-start -d lib/ src/",
     "prepare": "npm run build",
-    "lint": "eslint . && prettier --loglevel=warn --check .",
-    "lint:fix": "eslint --fix . && prettier --loglevel=warn --write .",
+    "lint": "eslint . && prettier --log-level=warn --check .",
+    "lint:fix": "eslint --fix . && prettier --log-level=warn --write .",
     "test": "npm run lint && npm run build && mocha test/*",
     "call": "node examples/interactive_call_endpoint.js"
   },
